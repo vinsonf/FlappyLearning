@@ -23,13 +23,13 @@ var options = {
     nbChild:1               // number of child by breeding
 }
 
-//Update options at any time
+// Update options at any time
 ne.set({options});
 
 // Generate first or next generation
 var generation = ne.nextGeneration();
 
-//When an network is over -> save this score
+// When an network is over -> save this score
 ne.networkScore(generation[x], <score = 0>);
 ```
 
